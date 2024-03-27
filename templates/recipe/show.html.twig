@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ "Recette : " ~ slug }}{% endblock %}
+
+{% block body %}
+    <h1>Recette : {{ slug }}</h1>
+
+    <p>Bienvenue sur la page {{ slug | upper }}</p>
+{% endblock %}
